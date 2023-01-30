@@ -183,7 +183,7 @@ export const Resume: React.FC = () => {
             />
           </Section>
 
-          <Section id="skills" header="Product Skills">
+          <Section id="product_skills" header="Product Skills">
             <BulletedList
               bullets={[
                 "Product Discovery",
@@ -194,7 +194,7 @@ export const Resume: React.FC = () => {
             />
           </Section>
           
-           <Section id="skills" header="Technical Skills">
+           <Section id="tech_skills" header="Technical Skills">
             <BulletedList
               bullets={[
                 "Analytics and visualization (Excel, SQL, Amplitude, Python)",
