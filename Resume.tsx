@@ -183,25 +183,28 @@ export const Resume: React.FC = () => {
             />
           </Section>
 
-          <Section id="skills" header="Skills">
+          <Section id="skills" header="Product Skills">
             <BulletedList
               bullets={[
-                "HTML, CSS",
-                "React.js",
-                "JavaScript, Typescript",
-                "Bundlers (Webpack, Parcel, Vite)",
-                "Express.js, Node.js (CLI apps)",
-                "OOP, SOLID, Patterns",
-                "Testing",
-                "CI/CD",
-                "Agile, Scrum",
-                "UX, Animations",
+                "Product Discovery",
+                "Product strategy, roadmaping",
+                "Storyboarding and storytelling",
+                "Prototyping (Figma, Coda.io, Miro)",
+              ]}
+            />
+          </Section>
+          
+           <Section id="skills" header="Technical Skills">
+            <BulletedList
+              bullets={[
+                "Analytics and visualization (Excel, SQL, Amplitude, Python)",
+                "Financial analysis, budgeting",
               ]}
             />
           </Section>
 
           <Section id="langs" header="Languages">
-            <BulletedList bullets={["English", "Spanish", "French"]} />
+            <BulletedList bullets={["English(C1)", "Russian(native)", "German(A2)"]} />
           </Section>
 
           <Section id="articles" header="Articles">
