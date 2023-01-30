@@ -30,7 +30,7 @@ export const Resume: React.FC = () => {
         <div id="layout">
           <h1 id="name">Aleksandr Korovin</h1>
           <p id="bio">
-            Senior Product Manager with 8+ years of experience in product focused companies and consulting, 
+            Product Manager with 8+ years of experience in product focused companies and consulting, 
             working for global brands in banking, insurance, e-commerce, and energy. 
             Have a founder’s mentality and strong skillset across product management domain: developed and implemented digital 
             & transformation strategies, prepared financial models and budgets, managed teams, 
@@ -56,34 +56,27 @@ export const Resume: React.FC = () => {
           <Section id="experience" header="Experience">
             <JobSection
               company={{
-                name: "Google",
-                link: "https://google.com",
+                name: "EPAM Continuum",
+                link: "https://www.continuuminnovation.com/",
               }}
-              location="USA"
-              position="Senior Frontend Engineer"
+              location="Turkey"
+              position="Product Manager"
               dates={{
-                from: "December 2021",
-                to: "December 2022",
+                from: "March 2021",
+                to: "Present",
               }}
               bullets={[
                 <>
                   <Link
                     highlight
-                    label="Lorem ipsum"
-                    href="https://www.lipsum.com/"
+                    label="Made Real Lab"
+                    href="https://www.epam.com/services/engineer/made-real-lab"
                   />{" "}
-                  dolor sit amet consectetur adipisicing elit. Libero accusamus
-                  quo facere nam iste deserunt quas autem atque dignissimos
-                  veniam velit, esse dolores ut praesentium excepturi, magnam
-                  eos maxime totam.
+                  Smart Locker solution (IoT application for storage, launched in 25+ EPAM locations) development and go-to-market strategy
                 </>,
                 [
-                  "Libero accusamus quo facere nam iste deserunt quas autem atque dignissimos veniam velit",
-                  "Esse dolores ut praesentium excepturi",
-                  [
-                    "Libero accusamus quo facere nam iste deserunt quas autem atque dignissimos veniam velit",
-                    "Esse dolores ut praesentium excepturi",
-                  ],
+                  "Pitched product to clients, stakeholders, and vendors, which lead to discovery and project initiation for big WE retailer",
+                  "Organized product development process for 6 teams / 20+ people (incl. product requirements, roadmap, customer journeys)",
                 ],
                 "Quos inventore deserunt repellendus aliquam expedita quidem odit nobis possimus, assumenda perspiciatis. Beatae nihil dignissimos cum atque ut ratione ad, rerum ipsam quibusdam iusto ea officiis suscipit architecto voluptas corrupti officia.",
               ]}
@@ -193,8 +186,8 @@ export const Resume: React.FC = () => {
             <BulletedList
               bullets={[
                 {
-                  label: "Build your resume in React + SSG!",
-                  href: "https://dev.to/jeckhummer/build-your-resume-in-react-ssg-10i4",
+                  label: "Product storytelling using Gamification principles",
+                  href: "https://alexkorvin.medium.com/storytelling-3-0-gamification-strategies-79160e670b0b",
                 },
               ]}
             />
