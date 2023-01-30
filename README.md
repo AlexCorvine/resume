@@ -1,1 +1,1 @@
-Demo: https://vasilyev-maksim.github.io/resume-template/
+Demo: https://alexcorvine.github.io/resume/
