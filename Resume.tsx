@@ -7,7 +7,7 @@ export const Resume: React.FC = () => {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>John Doe - Frontend Developer</title>
+        <title>Aleksandr Korovin - Product Manager</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -42,8 +42,8 @@ export const Resume: React.FC = () => {
               "City, Country",
               <Phone countryCode="+999" number="999999999" />,
               {
-                label: "john.doe@gmail.com",
-                href: "mailto:john.doe@gmail.com",
+                label: "alexander.s.korovin@gmail.com",
+                href: "mailto:alexander.s.korovin@gmail.com",
               },
               {
                 label: "GitHub",
