@@ -84,16 +84,15 @@ export const Resume: React.FC = () => {
                 [
                   "Led development of two kernel teams (similarity engine, knowledge graph on StarDog), launched 3 PoCs for client",
                   "Implemented OKR approach to improve gaps between delivery and product management and decrease cycle time",
-                  "Run Discovery of Compliance check product concept (user research, roadmap, use case collection, business model)",
                   "Worked closely with the product and technical director on long-term strategy, on presales, discoveries, and platform vision",
                 ],
                 <>
                   Product coach for an online gambling platform, implemented product transformation strategy for a tribe (16 teams)
                 </>,
                 [
-                  "Worked with business to unified product creation process and PM capability maturity model",
-                  "Access product management capabilities (20+ product managers) and conducted regular workshops to close the gap between agile and product management teams",
-                  "Develop and rollout a product decomposition framework for 2 program level initiatives",
+                  "Worked with business to unified product creation process and product management capability maturity model",
+                  "Conducted PM capabilities assessment (20+ PMs) and run regular workshops to close the gap between delivery and product management teams",
+                  "Develop and rollout a product decomposition framework for program level initiatives",
                 ],
                 <>
                 Product manager for e-commerce seller portal discovery
@@ -106,19 +105,36 @@ export const Resume: React.FC = () => {
 
             <JobSection
               company={{
-                name: "Amazon",
-                link: "https://amazon.com",
+                name: "IBM iX",
+                link: "https://ibmix.de/en/",
               }}
-              location="USA"
-              position="Senior Frontend Engineer"
+              location="Russia"
+              position="Seniot Digital Consultant"
               dates={{
-                from: "December 2019",
-                to: "December 2020",
+                from: "March 2018",
+                to: "March 2021",
               }}
               bullets={[
-                "Quos inventore deserunt repellendus aliquam expedita quidem odit nobis possimus, assumenda perspiciatis. Beatae nihil dignissimos cum atque ut ratione ad, rerum ipsam quibusdam iusto ea officiis suscipit architecto voluptas corrupti officia.",
-                "Libero accusamus quo facere nam iste deserunt quas autem atque dignissimos veniam velit",
-                "Esse dolores ut praesentium excepturi",
+                 <>
+                  <Link
+                    highlight
+                    label="Experience consultant / PO for Digital Lab"
+                    href="https://www.ibm.com/services/ibmix/case-studies/pasha-bank.html"
+                  />{" "}
+                  set-up and new online bank development for big corporate bank 
+                </>,
+                [
+                "Led a discovery stream and helped to reduce time from idea validation to MVP from one year to three months)", 
+                "Worked as a PO on discovery and delivery of new products: daily banking, SME onboarding",
+                "Responsible for MVP, and supported go-to-market of B2B marketplace (platform to connect buyer and suppliers), that resulted 1000+ clients, bid count in 80% of RFQs, 21% cost reduction for seller",
+                ],
+               <>
+                 Product strategy for Personalised Campaigning platform for a biggest retail bank in Russia 
+                </>,
+                  [
+                "Led a product stream to create a Campaign as a Service platform vision (+ Next Best Action engine) for business & marketing teams: conducted audit of personalisation process within bank, market research on similar product offerings", 
+                "Prepared product pitching materials and presented it to tribe leads and CTO, which lead project to next phase, platform technical design and MVP preparation",
+                ],
               ]}
             />
 
@@ -213,6 +229,10 @@ export const Resume: React.FC = () => {
                 {
                   label: "Product storytelling using Gamification principles",
                   href: "https://alexkorvin.medium.com/storytelling-3-0-gamification-strategies-79160e670b0b",
+                },
+                 {
+                  label: "Storytelling and Presentation design (RU), open webinar to RANEPA master program: Digital product and visualisation",
+                  href: "https://ion.ranepa.ru/news/storytelling-i-oformlenie-prezentatsiy-vebinar-aleksandra-korovina-ibm-i-alekseya-mordasova-sberbank/",
                 },
               ]}
             />
