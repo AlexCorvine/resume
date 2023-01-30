@@ -69,17 +69,39 @@ export const Resume: React.FC = () => {
                 <>
                   <Link
                     highlight
-                    label="Made Real Lab"
+                    label="PM for Made Real Lab"
                     href="https://www.epam.com/services/engineer/made-real-lab"
                   />{" "}
-                  Smart Locker solution (IoT application for storage, launched in 25+ EPAM locations) development and go-to-market strategy
+                  Smart Locker (IoT solution for smart storage, launched in 25+ EPAM offices), led the product development and market launch 
                 </>,
                 [
                   "Pitched product to clients, stakeholders, and vendors, which lead to discovery and project initiation for big WE retailer",
                   "Organized product development process for 6 teams / 20+ people (incl. product requirements, roadmap, customer journeys)",
                 ],
-                "Quos inventore deserunt repellendus aliquam expedita quidem odit nobis possimus, assumenda perspiciatis. Beatae nihil dignissimos cum atque ut ratione ad, rerum ipsam quibusdam iusto ea officiis suscipit architecto voluptas corrupti officia.",
-              ]}
+                   <>
+                  PM of AI engineering platform, helped to develop Commercial solution from a proof-of-concept (PoC) stage
+                </>,
+                [
+                  "Led development of two kernel teams (similarity engine, knowledge graph on StarDog), launched 3 PoCs for client",
+                  "Implemented OKR approach to improve gaps between delivery and product management and decrease cycle time",
+                  "Run Discovery of Compliance check product concept (user research, roadmap, use case collection, business model)",
+                  "Worked closely with the product and technical director on long-term strategy, on presales, discoveries, and platform vision",
+                ],
+                <>
+                  Product coach for an online gambling platform, implemented product transformation strategy for a tribe (16 teams)
+                </>,
+                [
+                  "Worked with business to unified product creation process and PM capability maturity model",
+                  "Access product management capabilities (20+ product managers) and conducted regular workshops to close the gap between agile and product management teams",
+                  "Develop and rollout a product decomposition framework for 2 program level initiatives",
+                ],
+                <>
+                Product manager for e-commerce seller portal discovery
+                </>,
+                <> 
+                Business development initiatives: Presale support, new offerings design, practice development, upskilling & assessment of PdMs
+                </>,
+                    ]}
             />
 
             <JobSection
