@@ -28,30 +28,27 @@ export const Resume: React.FC = () => {
 
       <body>
         <div id="layout">
-          <h1 id="name">John Doe</h1>
+          <h1 id="name">Aleksandr Korovin</h1>
           <p id="bio">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Senior Product Manager with 8+ years of experience in product focused companies and consulting, 
+            working for global brands in banking, insurance, e-commerce, and energy. 
+            Have a founder’s mentality and strong skillset across product management domain: developed and implemented digital 
+            & transformation strategies, prepared financial models and budgets, managed teams, 
+            created new products and features from idea to launch
           </p>
 
           <BulletedList
             id="contacts"
             bullets={[
-              "City, Country",
-              <Phone countryCode="+999" number="999999999" />,
+              "Izmir, Turkey",
+              <Phone countryCode="+90" number="(554) 584-2758 " />,
               {
                 label: "alexander.s.korovin@gmail.com",
                 href: "mailto:alexander.s.korovin@gmail.com",
               },
               {
-                label: "GitHub",
-                href: "https://www.github.com/",
-              },
-              {
                 label: "LinkedIn",
-                href: "https://www.linkedin.com",
+                href: "https://www.linkedin.com/in/aleksanderkorovin/",
               },
             ]}
           />
