@@ -121,10 +121,10 @@ export const Resume: React.FC = () => {
                     label="Experience consultant / PO for Digital Lab"
                     href="https://www.ibm.com/services/ibmix/case-studies/pasha-bank.html"
                   />{" "}
-                  set-up and new online bank development for big corporate bank 
+                  set-up and new online bank development for big corporate bank in CIS
                 </>,
                 [
-                "Led a discovery stream and helped to reduce time from idea validation to MVP from one year to three months)", 
+                "Led a discovery stream and helped to reduce time from idea validation to MVP from one year to three months", 
                 "Worked as a PO on discovery and delivery of new products: daily banking, SME onboarding",
                 "Responsible for MVP, and supported go-to-market of B2B marketplace (platform to connect buyer and suppliers), that resulted 1000+ clients, bid count in 80% of RFQs, 21% cost reduction for seller",
                 ],
@@ -135,58 +135,88 @@ export const Resume: React.FC = () => {
                 "Led a product stream to create a Campaign as a Service platform vision (+ Next Best Action engine) for business & marketing teams: conducted audit of personalisation process within bank, market research on similar product offerings", 
                 "Prepared product pitching materials and presented it to tribe leads and CTO, which lead project to next phase, platform technical design and MVP preparation",
                 ],
+                <>
+                 Product manager for BI / ML product in O&G upstream (geological exploration)
+                </>,
+                  [
+               "Launch 2 MVPs ( exploration planner, tech scenario recommendation) from idea to production ready solutions",
+                "Onboarded 100+ geological projects and 30 active users, pitch product on client demo sessions"
+
+                ],
               ]}
             />
 
             <JobSection
               company={{
-                name: "Meta",
-                link: "https://meta.com",
+                name: "Deloitte Digital",
+                link: "https://www.deloittedigital.com/",
               }}
-              location="USA"
-              position="Frontend Engineer"
+              location="Moscow"
+              position="Senior Consultant"
               dates={{
-                from: "August 2018",
-                to: "May 2019",
+                from: "April 2017",
+                to: "March 2018",
               }}
               bullets={[
-                "Quos inventore deserunt repellendus aliquam expedita quidem odit nobis possimus, assumenda perspiciatis. Beatae nihil dignissimos cum atque ut ratione ad, rerum ipsam quibusdam iusto ea officiis suscipit architecto voluptas corrupti officia.",
-                "Libero accusamus quo facere nam iste deserunt quas autem atque dignissimos veniam velit",
-                "Esse dolores ut praesentium excepturi",
+                "Developed a digital strategy for top-3 insurance: lead a team of 3 people, was responsible for analyses of internal and external environment, company digital maturity and insurance value chain assessment,
+                "Prepared quarterly fintech monitoring for Central Bank: lead a team, responsible for overall methodology, fintech index and delivery",
+              ]}
+            />
+            
+            <JobSection
+              company={{
+                name: "KPMG",
+                link: "https://kpmg.com/ae/en/home/services/advisory/strategy.html",
+              }}
+              location="Moscow"
+              position="Senior Associate"
+              dates={{
+                from: "November 2016",
+                to: "April 2017",
+              }}
+              bullets={[
+                "Operation efficiency improvement for Object of social infrastructure (hotels, recreation centers). Responsible for client & market research, financial model, client material preparation and presentation,
               ]}
             />
 
             <JobSection
               company={{
-                name: "Netflix",
-                link: "https://netflix.com/",
+                name: "Sberbank",
+                link: "Risk Management",
               }}
-              location="USA"
-              position="Full-stack Engineer"
+              location="Russia"
+              position="Project manager"
               dates={{
-                from: "August 2015",
-                to: "August 2018",
+                from: "October 2014",
+                to: "November 206",
               }}
+               bullets={[
+                "PM for online education programs in risk management and finance, responsible for line and middle management of the bank",
+                "Developed executive programs, risk game simulator in web/mobile for line management (7000+ students / year, NPS > 80%",
+                "Operation efficiency improvement for Object of social infrastructure (hotels, recreation centers). Responsible for client & market research, financial model, client material preparation and presentation".
+              ]}
             />
 
             <JobSection
               company={{
-                name: "Spotify",
-                link: "https://spotify.com/",
+                name: "IBM",
               }}
-              location="USA"
-              position="Intern"
+              location="Russia"
+              position="Consultant"
               dates={{
-                from: "August 2014",
-                to: "August 2015",
+                from: "September 2013",
+                to: "October 2014",
               }}
+               bullets={[
+              "Delivered lead generation analytics engine for US transportation company, responsible for engine logics, UX and product concept"
+              ]}
             />
           </Section>
 
           <Section id="education" header="Education">
             <EducationSubsection
               institution={{
-                name: "MIT",
+                name: "St. Petersburg State University (GSOM)",
                 href: "https://www.mit.edu/",
               }}
               location="Cambridge, USA"
