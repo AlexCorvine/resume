@@ -217,25 +217,55 @@ export const Resume: React.FC = () => {
             <EducationSubsection
               institution={{
                 name: "St. Petersburg State University (GSOM)",
-                href: "https://www.mit.edu/",
+                href: "https://gsom.spbu.ru/en/",
               }}
-              location="Cambridge, USA"
+              location="St.Petersburg, Russia"
+              degree="Master's degree"
+              faculty="Internaional Business"
+              dates={{
+                from: "2011",
+                to: "2013",
+              }}
+            />
+            
+             <EducationSubsection
+              institution={{
+                name: "University of St. Gallen",
+                href: "https://www.unisg.ch/en/",
+              }}
+              location="St. Gallen, Switzerland"
+              degree="Exchange program"
+              faculty="Banking and Finance"
+              dates={{
+                from: "2012",
+                to: "2013",
+              }}
+            />
+            
+             <EducationSubsection
+              institution={{
+                name: "St. Petersburg State University",
+                href: "https://apmath.spbu.ru/",
+              }}
+              location="St.Petersburg, Russia"
               degree="Bachelor's degree"
               faculty="Computer Science and Engineering"
               dates={{
-                from: "2010",
-                to: "2016",
+                from: "2007",
+                to: "2011",
               }}
             />
           </Section>
 
-          <Section id="product_skills" header="Product Skills">
+          <Section id="skills" header="Skills">
             <BulletedList
               bullets={[
                 "Product Discovery",
                 "Product strategy, roadmaping",
                 "Storyboarding and storytelling",
                 "Prototyping (Figma, Coda.io, Miro)",
+                "Analytics and visualization (Excel, SQL, Amplitude, Python)",
+                "Financial analysis and budgeting",
               ]}
             />
           </Section>
@@ -243,8 +273,7 @@ export const Resume: React.FC = () => {
            <Section id="tech_skills" header="Technical Skills">
             <BulletedList
               bullets={[
-                "Analytics and visualization (Excel, SQL, Amplitude, Python)",
-                "Financial analysis, budgeting",
+                
               ]}
             />
           </Section>
@@ -259,6 +288,10 @@ export const Resume: React.FC = () => {
                 {
                   label: "Product storytelling using Gamification principles",
                   href: "https://alexkorvin.medium.com/storytelling-3-0-gamification-strategies-79160e670b0b",
+                },
+                 {
+                  label: "Speaker in Product Hunt 2022, Baku conference - Product storytelling ",
+                  href: "https://www.youtube.com/live/ObquU5MwrKM?feature=share&t=10023",
                 },
                  {
                   label: "Storytelling and Presentation design (RU), open webinar to RANEPA master program: Digital product and visualisation",
