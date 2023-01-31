@@ -33,7 +33,11 @@ export const Resume: React.FC = () => {
             Product Manager with 8+ years of experience in product focused companies and consulting, 
             working for global brands in banking, insurance, e-commerce, and energy. 
             Have a founder’s mentality and strong skillset across product management domain, 
-            created new products and features from idea, discovery and tolaunch. Anabin certified degree: Bachelor in Applied mathematics, Master in Internaional Business, St. Peterburg State Univeristy with exchange in University of St. Gallen. 
+            created new products and features from idea, discovery and tolaunch. 
+          </p>
+          <p id="education">
+            Significant international experience and ability to work in a multi-national and multi-cultural environment (lived for 2 years in CIS, US, and EU, maintain regular contacts with a global network)
+            Anabin certified university and specialisation: Bachelor’s degree in Applied mathematics; Master in GSOM business school and University of St. Gallen (ranked #21 by the Financial Times globally) 
           </p>
 
           <BulletedList
