@@ -269,14 +269,6 @@ export const Resume: React.FC = () => {
               ]}
             />
           </Section>
-          
-           <Section id="tech_skills" header="Technical Skills">
-            <BulletedList
-              bullets={[
-                
-              ]}
-            />
-          </Section>
 
           <Section id="langs" header="Languages">
             <BulletedList bullets={["English(C1)", "Russian(native)", "German(A2)"]} />
