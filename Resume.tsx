@@ -223,7 +223,7 @@ export const Resume: React.FC = () => {
               faculty="Computer Science and Engineering"
               dates={{
                 from: "2010",
-                to: "2014",
+                to: "2016",
               }}
             />
           </Section>
