@@ -140,8 +140,7 @@ export const Resume: React.FC = () => {
                 </>,
                   [
                "Launch 2 MVPs ( exploration planner, tech scenario recommendation) from idea to production ready solutions",
-                "Onboarded 100+ geological projects and 30 active users, pitch product on client demo sessions"
-
+                "Onboarded 100+ geological projects and 30 active users, pitch product on client demo sessions",
                 ],
               ]}
             />
@@ -158,7 +157,7 @@ export const Resume: React.FC = () => {
                 to: "March 2018",
               }}
               bullets={[
-                "Developed a digital strategy for top-3 insurance: lead a team of 3 people, was responsible for analyses of internal and external environment, company digital maturity and insurance value chain assessment,
+                "Developed a digital strategy for top-3 insurance: lead a team of 3 people, was responsible for analyses of internal and external environment, company digital maturity and insurance value chain assessment",
                 "Prepared quarterly fintech monitoring for Central Bank: lead a team, responsible for overall methodology, fintech index and delivery",
               ]}
             />
@@ -175,7 +174,7 @@ export const Resume: React.FC = () => {
                 to: "April 2017",
               }}
               bullets={[
-                "Operation efficiency improvement for Object of social infrastructure (hotels, recreation centers). Responsible for client & market research, financial model, client material preparation and presentation,
+                "Operation efficiency improvement for Object of social infrastructure (hotels, recreation centers). Responsible for client & market research, financial model, client material preparation and presentation",
               ]}
             />
 
@@ -193,7 +192,7 @@ export const Resume: React.FC = () => {
                bullets={[
                 "PM for online education programs in risk management and finance, responsible for line and middle management of the bank",
                 "Developed executive programs, risk game simulator in web/mobile for line management (7000+ students / year, NPS > 80%",
-                "Operation efficiency improvement for Object of social infrastructure (hotels, recreation centers). Responsible for client & market research, financial model, client material preparation and presentation".
+                "Operation efficiency improvement for Object of social infrastructure (hotels, recreation centers). Responsible for client & market research, financial model, client material preparation and presentation",
               ]}
             />
 
@@ -208,7 +207,7 @@ export const Resume: React.FC = () => {
                 to: "October 2014",
               }}
                bullets={[
-              "Delivered lead generation analytics engine for US transportation company, responsible for engine logics, UX and product concept"
+              "Delivered lead generation analytics engine for US transportation company, responsible for engine logics, UX and product concept",
               ]}
             />
           </Section>
