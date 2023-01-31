@@ -147,8 +147,8 @@ export const Resume: React.FC = () => {
 
             <JobSection
               company={{
-                name: "Deloitte Digital"
-                link: "https://www.deloittedigital.com/"
+                name: "Deloitte Digital",
+                link: "https://www.deloittedigital.com/",
               }}
               location="Moscow"
               position="Senior Consultant"
@@ -181,7 +181,6 @@ export const Resume: React.FC = () => {
             <JobSection
               company={{
                 name: "Sberbank",
-                link: "Risk Management",
               }}
               location="Russia"
               position="Project manager"
