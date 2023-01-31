@@ -109,7 +109,7 @@ export const Resume: React.FC = () => {
                 link: "https://ibmix.de/en/",
               }}
               location="Russia"
-              position="Seniot Digital Consultant"
+              position="Senior Digital Consultant"
               dates={{
                 from: "March 2018",
                 to: "March 2021",
