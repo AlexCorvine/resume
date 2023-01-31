@@ -34,7 +34,6 @@ export const Resume: React.FC = () => {
             working for global brands in banking, insurance, e-commerce, and energy. 
             Have a founder’s mentality and strong skillset across product management domain, 
             created new products and features from idea, discovery and tolaunch. Anabin certified degree: Bachelor in Applied mathematics, Master in Internaional Business, St. Peterburg State Univeristy with exchange in University of St. Gallen. 
-           
           </p>
 
           <BulletedList
