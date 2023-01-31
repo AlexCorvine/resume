@@ -139,7 +139,7 @@ export const Resume: React.FC = () => {
                  Product manager for BI / ML product in O&G upstream (geological exploration)
                 </>,
                   [
-               "Launch 2 MVPs ( exploration planner, tech scenario recommendation) from idea to production ready solutions",
+                "Launch 2 MVPs ( exploration planner, tech scenario recommendation) from idea to production ready solutions",
                 "Onboarded 100+ geological projects and 30 active users, pitch product on client demo sessions",
                 ],
               ]}
@@ -147,8 +147,8 @@ export const Resume: React.FC = () => {
 
             <JobSection
               company={{
-                name: "Deloitte Digital",
-                link: "https://www.deloittedigital.com/",
+                name: "Deloitte Digital"
+                link: "https://www.deloittedigital.com/"
               }}
               location="Moscow"
               position="Senior Consultant"
