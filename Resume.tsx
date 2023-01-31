@@ -38,7 +38,7 @@ export const Resume: React.FC = () => {
            Significant international experience and ability to work in a multi-national and multi-cultural environment (lived for 2 years in CIS, US, and EU, maintain regular contacts with a global network)
           <br />
           <br />
-           Anabin certified university and specialisation: Bachelor’s degree in Applied mathematics; Master in GSOM business school and University of St. Gallen (ranked #21 by the Financial Times globally) 
+           Anabin certified university and specialisation: Bachelor’s degree in Applied mathematics; Master in GSOM business school and University of St. Gallen (ranked #14 by the Financial Times globally) 
           </p>
 
           <BulletedList
