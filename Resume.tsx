@@ -35,7 +35,7 @@ export const Resume: React.FC = () => {
             Have a founder’s mentality and strong skillset across product management domain, 
             created new products and features from idea, discovery and tolaunch. 
           </p>
-          <p id="education">
+          <p id="bio">
             Significant international experience and ability to work in a multi-national and multi-cultural environment (lived for 2 years in CIS, US, and EU, maintain regular contacts with a global network)
             Anabin certified university and specialisation: Bachelor’s degree in Applied mathematics; Master in GSOM business school and University of St. Gallen (ranked #21 by the Financial Times globally) 
           </p>
