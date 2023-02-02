@@ -1,6 +1,5 @@
 import * as React from "react";
 import { BulletedList } from "./core/BulletedList";
-import { Link } from "./core/Link";
 import { Section } from "./core/Section";
 
 export const Articles: React.FC = () => {
