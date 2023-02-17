@@ -5,7 +5,8 @@ export const Bio: React.FC = () => {
     <p className="bio">
       Product Manager with 8+ years of experience in product focused companies and consulting,
       working for global brands in banking, insurance, e-commerce, and energy. Have a founder’s mentality and strong skillset across product management domain,
-      created new products and features from idea, discovery to launch.
+      developed and implemented digital transformation strategies, prepared financial models and budgets, managed teams, created new products and features from idea to launch, 
+      developed machine learning systems for enterprises
       <br />
       <br />
       Significant international experience and ability to work in a multi-national and multi-cultural environment (lived for 2 years in CIS, US, and EU, maintain regular contacts with a global network)
