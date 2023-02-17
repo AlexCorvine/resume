@@ -7,9 +7,9 @@ export const SoftSkills: React.FC = () => {
     <Section header="Soft skills">
       <BulletedList
         bullets={[
-          "Leadership",
+          "Leadership and ability to take initiative",
           "Teamwork",
-          "Problem solving",
+          "Top-down communication and storytelling",
           "Critical thinking",
           "Creativity",
           "Empathy"
