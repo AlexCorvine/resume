@@ -24,30 +24,11 @@ export const Experience: React.FC = () => {
               label="PM for Made Real Lab"
               href="https://www.epam.com/services/engineer/made-real-lab"
             />{" "}
-            Smart Locker (IoT solution for smart storage, launched in 25+ EPAM offices), led the product development and market launch
-          </>,
+          Product manager for B2B AI engineering platform (Fortune 500), led 15+ people, improved CTR of similarity engine by 20%, redesigned feature discovery that reduced lead time by 25%, 
+          worked on long-term strategy and platform launch
           [
-            "Pitched product to clients, stakeholders, and vendors, which lead to discovery and project initiation for big WE retailer",
-            "Organized product development process for 6 teams / 20+ people (incl. product requirements, roadmap, customer journeys)",
-          ],
           <>
-            PM of AI engineering platform, helped to develop Commercial solution from a proof-of-concept (PoC) stage
-          </>,
-          [
-            "Led development of two kernel teams (similarity engine, knowledge graph on StarDog), launched 3 PoCs for client",
-            "Implemented OKR approach to improve gaps between delivery and product management and decrease cycle time",
-            "Worked closely with the product and technical director on long-term strategy, on presales, discoveries, and platform vision",
-          ],
-          <>
-            Product coach for an online gambling platform, implemented product transformation strategy for a tribe (16 teams)
-          </>,
-          [
-            "Worked with business to unified product creation process and product management capability maturity model",
-            "Conducted PM capabilities assessment (20+ PMs) and run regular workshops to close the gap between delivery and product management teams",
-            "Develop and rollout a product decomposition framework for program level initiatives",
-          ],
-          <>
-            Product manager for e-commerce seller portal discovery
+          Product manager for e-commerce seller portal discovery
           </>,
           <>
             Business development initiatives: Presale support, new offerings design, practice development, upskilling & assessment of PdMs
