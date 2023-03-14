@@ -19,14 +19,9 @@ export const Experience: React.FC = () => {
         }}
         bullets={[
           <>
-            <Link
-              highlight
-              label="PM for Made Real Lab"
-              href="https://www.epam.com/services/engineer/made-real-lab"
-            />{" "}
           Product manager for B2B AI engineering platform (Fortune 500), led 15+ people, improved CTR of similarity engine by 20%, redesigned feature discovery that reduced lead time by 25%, 
           worked on long-term strategy and platform launch
-          [
+          </>,
           <>
           Product manager for e-commerce seller portal discovery
           </>,
