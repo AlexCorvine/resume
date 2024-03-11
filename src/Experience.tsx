@@ -19,13 +19,13 @@ export const Experience: React.FC = () => {
         }}
         bullets={[
           <>
-          Data Product Manager for Learner Data Model, led 7+ people to develop and scale of data-driven features that enhance personalized learning experiences
+          Data Product Manager for Learner Data Model(LDM), led 7+ people to develop and scale data-driven features that personalized learning experiences
           </>,
           <>
-          Designed and rolled out Data Product Management process within the company: 10 teams onboardes, 5 new data products delivered E2E using new framework
+          Designed and rolled out Data Product Management framework within the company: 10 teams onboarded, 5 new data products delivered E2E using new process
           </>,
           <>
-            Business support initiatives: communication style and structure program, data literacy 
+          Conducted corporate trainings: communication style and structure, data literacy 
           </>,
         ]}
       />
