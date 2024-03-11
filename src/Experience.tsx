@@ -6,6 +6,29 @@ import { Section } from "./core/Section";
 export const Experience: React.FC = () => {
   return (
     <Section header="Experience">
+         <JobItem
+        company={{
+          name: "Babbel",
+          link: "https://www.babbel.com/",
+        }}
+        location="Germany"
+        position="Sr. Data Product Manager"
+        dates={{
+          from: "September 2023",
+          to: "Present",
+        }}
+        bullets={[
+          <>
+          Data Product Manager for Learner Data Model, led 7+ people to develop and scale of data-driven features that enhance personalized learning experiences
+          </>,
+          <>
+          Designed and rolled out Data Product Management process within the company: 10 teams onboardes, 5 new data products delivered E2E using new framework
+          </>,
+          <>
+            Business support initiatives: communication style and structure program, data literacy 
+          </>,
+        ]}
+      />
       <JobItem
         company={{
           name: "EPAM Continuum",
@@ -15,7 +38,7 @@ export const Experience: React.FC = () => {
         position="Product Manager"
         dates={{
           from: "March 2021",
-          to: "Present",
+          to: "September 2023",
         }}
         bullets={[
           <>
