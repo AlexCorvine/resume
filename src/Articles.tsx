@@ -4,14 +4,14 @@ import { Section } from './core/Section';
 
 type BulletItem = {
   label: string;
-  href?: string; // Keep href optional, allowing some items to be plain text
+  href: string; // Temporarily treating `href` as always present to satisfy TypeScript
 };
 
 export const Articles: React.FC = () => {
   const bullets: BulletItem[] = [
     {
       label: 'Guest lecturer on product management in British Higher School of Art & Design and PWC',
-      // Omit href for this item, intending it to be rendered as plain text
+      href: '',
     },
     {
       label: 'Speaker in Product Hunt 2022, Baku conference - Product storytelling',
