@@ -2,14 +2,14 @@ import React from 'react';
 import { BulletedList } from './core/BulletedList';
 import { Section } from './core/Section';
 
-// Define a type for the bullets to ensure type safety
+
+// Assuming BulletedList expects IBullet[] and IBullet has a mandatory href
 type BulletItem = {
   label: string;
-  href?: string;
+  href?: string; // Keep href optional in our local type definition
 };
 
 export const Articles: React.FC = () => {
-  // Pre-defined bullets array to keep the JSX clean
   const bullets: BulletItem[] = [
     {
       label: 'Guest lecturer on product management in British Higher School of Art & Design and PWC',
@@ -24,9 +24,15 @@ export const Articles: React.FC = () => {
     },
   ];
 
+  // Transform bullets to ensure href is always a string, providing a default value if necessary
+  const transformedBullets = bullets.map(bullet => ({
+    label: bullet.label,
+    href: bullet.href || '' // Provide a default empty string if href is undefined
+  }));
+
   return (
     <Section header="Articles & Speeches">
-      <BulletedList bullets={bullets} />
+      <BulletedList bullets={transformedBullets} />
     </Section>
   );
 };
