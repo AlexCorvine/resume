@@ -3,8 +3,8 @@ import * as React from 'react';
 export const Bio: React.FC = () => {
   return (
     <p className="bio">
-    8+ years of experience in consulting and product development for fintech, e-commerce, and energy sectors. Have a founder’s mentality and skilled in product management: developed and implemented digital strategies, prepared financial models, and budgets, and developed B2B products from idea to launch. Experienced in managing teams, data-driven decisions, 
-      and communicating with senior stakeholders
-    </p >
+      Sr. Data/AI Product Manager with 10+ years in ed-tech, fintech, and B2B. Strong in strategy, UX, and data-driven delivery.
+      Recent projects: 360° User Profile and LLM content personalization that lifted DAU and improved EBITDA (€500K/y).
+    </p>
   );
 };
