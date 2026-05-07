@@ -1,167 +1,114 @@
 import * as React from "react";
-import { JobItem } from "./core/JobItem";
-import { Link } from "./core/Link";
 import { Section } from "./core/Section";
+
+type Job = {
+  company: string;
+  href: string;
+  position: string;
+  location: string;
+  from: string;
+  to: string;
+  bullets: string[];
+};
+
+const jobs: Job[] = [
+  {
+    company: "Babbel GmbH",
+    href: "https://www.babbel.com/",
+    position: "Sr. Data Product Manager",
+    location: "Berlin",
+    from: "Oct 2023",
+    to: "Present",
+    bullets: [
+      "Shipped GenAI-powered pipelines for personalised content creation (text, audio, images), targeting 20% churn driver",
+      "Led discovery for internal AI content platform, designing evaluation frameworks and Human-in-the-Loop workflows",
+      "Launched 360° Learner Profile for 10+ teams; cut ad-hoc queries 50% and aligned 6 departments around data model",
+      "Shipped engagement features (streaks, progress metrics) leveraging new data signals, driving a 10% growth in DAUs",
+    ],
+  },
+  {
+    company: "EPAM Continuum",
+    href: "https://www.continuuminnovation.com/",
+    position: "Sr. Product Manager",
+    location: "Remote",
+    from: "Mar 2021",
+    to: "Oct 2023",
+    bullets: [
+      "Led a 15-member AI search team at a Fortune 500 company; new model lifted CTR 20%",
+      "Redesigned fashion retailer's seller-portal; discovered new product catalogue that unified data, cut listing time 30%",
+      "Launched a Smart Locker SaaS platform, driving go-to-market for 3 enterprises across 25+ sites",
+    ],
+  },
+  {
+    company: "IBM iX",
+    href: "https://ibmix.de/en/",
+    position: "Sr. Product Owner",
+    location: "Moscow",
+    from: "Mar 2018",
+    to: "Mar 2021",
+    bullets: [
+      "Built region's first Digital Lab; shipped online-bank MVP in <9 months",
+      "Rolled out discovery toolkit to 4 squads; trimmed idea-to-MVP cycle 75%",
+      "Built digital platform (AI, RPA) to optimise oil-field geo exploration, saving 30% CAPEX",
+    ],
+  },
+  {
+    company: "Deloitte Digital",
+    href: "https://www.deloittedigital.com/",
+    position: "Sr. Consultant",
+    location: "Moscow",
+    from: "Dec 2016",
+    to: "Mar 2018",
+    bullets: [
+      "Orchestrated €30M digital roadmap for top-5 insurer in CIS, board-approved in 8 weeks",
+      "Published fintech index for Central Bank; adopted as national benchmark",
+    ],
+  },
+  {
+    company: "Sberbank",
+    href: "https://programmes.sberuniversity.ru/rmacademy",
+    position: "Project Manager",
+    location: "Moscow",
+    from: "Oct 2014",
+    to: "Nov 2016",
+    bullets: [
+      "Delivered banking-risk simulator to 7000+ managers; cut training spend 35%",
+      "Built learning analytics for 50K+ students; insights reshaped L&D strategy",
+    ],
+  },
+  {
+    company: "IBM",
+    href: "https://www.ibm.com/consulting/",
+    position: "Digital Consultant",
+    location: "Moscow",
+    from: "Sep 2013",
+    to: "Oct 2014",
+    bullets: [
+      "Designed lead-gen analytics engine for US logistics firm; grew qualified leads 20%",
+    ],
+  },
+];
 
 export const Experience: React.FC = () => {
   return (
     <Section header="Experience">
-         <JobItem
-        company={{
-          name: "Babbel",
-          link: "https://www.babbel.com/",
-        }}
-        location="Germany"
-        position="Sr. Data Product Manager"
-        dates={{
-          from: "September 2023",
-          to: "Present",
-        }}
-        bullets={[
-          <>
-          Data Product Manager for Learner Data Model(LDM), led 7+ people to develop and scale data-driven features that personalized learning experiences
-          </>,
-          <>
-          Designed and rolled out Data Product Management framework within the company: 10 teams onboarded, 5 new data products delivered E2E using new process
-          </>,
-          <>
-          Conducted corporate trainings: communication style and structure, data literacy 
-          </>,
-        ]}
-      />
-      <JobItem
-        company={{
-          name: "EPAM Continuum",
-          link: "https://www.continuuminnovation.com/",
-        }}
-        location="Turkey"
-        position="Product Manager"
-        dates={{
-          from: "March 2021",
-          to: "September 2023",
-        }}
-        bullets={[
-          <>
-          Product manager for B2B AI engineering platform (Fortune 500), led 15+ people, improved CTR of similarity engine by 20%, redesigned feature discovery that reduced lead time by 25%, 
-          worked on long-term strategy and platform launch
-          </>,
-          <>
-          Product manager for e-commerce seller portal discovery
-          </>,
-          <>
-            Business development initiatives: Presale support, new offerings design, practice development, upskilling & assessment of PdMs
-          </>,
-        ]}
-      />
-
-      <JobItem
-        company={{
-          name: "IBM iX",
-          link: "https://ibmix.de/en/",
-        }}
-        location="Russia"
-        position="Senior Digital Consultant"
-        dates={{
-          from: "March 2018",
-          to: "March 2021",
-        }}
-        bullets={[
-          <>
-            <Link
-              highlight
-              label="Experience consultant / PO for Digital Lab"
-              href="https://www.ibm.com/services/ibmix/case-studies/pasha-bank.html"
-            />{" "}
-            set-up and new online bank development for big corporate bank in CIS
-          </>,
-          [
-            "Led a discovery stream and helped to reduce time from idea validation to MVP from one year to three months",
-            "Worked as a PO on discovery and delivery of new products: daily banking, SME onboarding",
-            "Responsible for MVP, and supported go-to-market of B2B marketplace (platform to connect buyer and suppliers), that resulted 1000+ clients, bid count in 80% of RFQs, 21% cost reduction for seller",
-          ],
-          <>
-            Product strategy for Personalised Campaigning platform for a biggest retail bank in Russia
-          </>,
-          [
-            "Led a product stream to create a Campaign as a Service platform vision (+ Next Best Action engine) for business & marketing teams: conducted audit of personalisation process within bank, market research on similar product offerings",
-            "Prepared product pitching materials and presented it to tribe leads and CTO, which lead project to next phase, platform technical design and MVP preparation",
-          ],
-          <>
-            Product manager for BI / ML product in O&G upstream (geological exploration)
-          </>,
-          [
-            "Launch 2 MVPs ( exploration planner, tech scenario recommendation) from idea to production ready solutions",
-            "Onboarded 100+ geological projects and 30 active users, pitch product on client demo sessions",
-          ],
-        ]}
-      />
-
-      <JobItem
-        company={{
-          name: "Deloitte Digital",
-          link: "https://www.deloittedigital.com/",
-        }}
-        location="Moscow"
-        position="Senior Consultant"
-        dates={{
-          from: "April 2017",
-          to: "March 2018",
-        }}
-        bullets={[
-          "Developed a digital strategy for top-3 insurance: lead a team of 3 people, was responsible for analyses of internal and external environment, company digital maturity and insurance value chain assessment",
-          "Prepared quarterly fintech monitoring for Central Bank: lead a team, responsible for overall methodology, fintech index and delivery",
-        ]}
-      />
-
-      <JobItem
-        company={{
-          name: "KPMG",
-          link: "https://kpmg.com/ae/en/home/services/advisory/strategy.html",
-        }}
-        location="Moscow"
-        position="Senior Associate"
-        dates={{
-          from: "November 2016",
-          to: "April 2017",
-        }}
-        bullets={[
-          "Operation efficiency improvement for Object of social infrastructure (hotels, recreation centers). Responsible for client & market research, financial model, client material preparation and presentation",
-        ]}
-      />
-
-      <JobItem
-        company={{
-          name: "Sberbank",
-          link: "https://programmes.sberuniversity.ru/rmacademy",
-        }}
-        location="Russia"
-        position="Project manager"
-        dates={{
-          from: "October 2014",
-          to: "November 206",
-        }}
-        bullets={[
-          "PM for online education programs in risk management and finance, responsible for line and middle management of the bank",
-          "Developed executive programs, risk game simulator in web/mobile for line management (7000+ students / year, NPS > 80%",
-          "Operation efficiency improvement for Object of social infrastructure (hotels, recreation centers). Responsible for client & market research, financial model, client material preparation and presentation",
-        ]}
-      />
-
-      <JobItem
-        company={{
-          name: "IBM",
-          link: "https://www.ibm.com/consulting/",
-        }}
-        location="Russia"
-        position="Consultant"
-        dates={{
-          from: "September 2013",
-          to: "October 2014",
-        }}
-        bullets={[
-          "Delivered lead generation analytics engine for US transportation company, responsible for engine logics, UX and product concept",
-        ]}
-      />
+      {jobs.map((job) => (
+        <div key={job.company} className="subsection">
+          <header>
+            <a href={job.href}>{job.company}</a>
+            {", "}
+            {job.location} — {job.position}
+          </header>
+          <div className="dates">
+            {job.from} – {job.to}
+          </div>
+          <ul>
+            {job.bullets.map((b) => (
+              <li key={b}>{b}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </Section>
   );
 };
