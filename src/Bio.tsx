@@ -3,8 +3,9 @@ import * as React from 'react';
 export const Bio: React.FC = () => {
   return (
     <p className="bio">
-      Sr. Data/AI Product Manager with 10+ years in ed-tech, fintech, and B2B. Strong in strategy, UX, and data-driven delivery.
-      Recent projects: 360° User Profile and LLM content personalization that lifted DAU and improved EBITDA (€500K/y).
+      10+ years shipping data and AI products in ed-tech, fintech, and B2B.
+      I close the gap between discovery and delivery — turning user research and data signals into shipped features with measurable outcomes.
+      Recent highlights: LLM content pipelines saving €500K/y and a 360° Learner Profile that drove +10% DAUs at Babbel.
     </p>
   );
 };

@@ -2,7 +2,6 @@ import * as React from "react";
 import { Achievements } from "./Achievements";
 import { Bio } from "./Bio";
 import { Certifications } from "./Certifications";
-import { Contacts } from "./Contacts";
 import { Education } from "./Education";
 import { Experience } from "./Experience";
 import { Interests } from "./Interests";
@@ -17,10 +16,10 @@ const DesktopLayout: React.FC = () => (
     <div className="resume-header">
       <h1 className="name">{name}</h1>
       <div className="tagline">
-        {position} &nbsp;·&nbsp; Berlin &nbsp;·&nbsp;{" "}
+        📍 Berlin &nbsp;·&nbsp; 📞 +49 152 215 254 00 &nbsp;·&nbsp;{" "}
         <a href="mailto:alexander.s.korovin@gmail.com">alexander.s.korovin@gmail.com</a>
         {" "}&nbsp;·&nbsp;{" "}
-        <a href="https://www.linkedin.com/in/aleksanderkorovin/">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/aleksanderkorovin/">linkedin.com/in/aleksanderkorovin</a>
       </div>
       <Bio />
     </div>
@@ -31,7 +30,6 @@ const DesktopLayout: React.FC = () => (
         <Education />
       </div>
       <div className="col-right">
-        <Contacts />
         <Skills />
         <Certifications />
         <Achievements />
@@ -49,10 +47,14 @@ const MobileLayout: React.FC = () => (
   <div className="mobile layout">
     <div className="resume-header">
       <h1 className="name">{name}</h1>
-      <div className="tagline">{position} · Berlin</div>
+      <div className="tagline">
+        📍 Berlin &nbsp;·&nbsp; 📞 +49 152 215 254 00 &nbsp;·&nbsp;{" "}
+        <a href="mailto:alexander.s.korovin@gmail.com">alexander.s.korovin@gmail.com</a>
+        {" "}&nbsp;·&nbsp;{" "}
+        <a href="https://www.linkedin.com/in/aleksanderkorovin/">linkedin.com/in/aleksanderkorovin</a>
+      </div>
       <Bio />
     </div>
-    <Contacts />
     <Skills />
     <Experience />
     <Education />

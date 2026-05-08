@@ -72,7 +72,12 @@ body {
 }
 
 .section > .subsection {
-  margin-top: 1rem;
+  margin-top: 0.9rem;
+}
+
+.subsection ul {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
 }
 
 /* ── Subsection (job / edu entries) ── */
@@ -110,10 +115,10 @@ ul {
 }
 
 ul li {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   color: #374151;
-  line-height: 1.6;
-  margin-bottom: 0.2rem;
+  line-height: 1.5;
+  margin-bottom: 0.1rem;
 }
 
 /* ── Contacts ── */
